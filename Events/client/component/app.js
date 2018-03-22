@@ -7,6 +7,7 @@ import Slideshow from './slideshow';
 import About from './about';
 import Gallery from './Gallery';
 import Contact from './contact';
+import Home from './Home';
 
 
 export default class App extends React.Component {
@@ -40,13 +41,14 @@ export default class App extends React.Component {
 
     render(props) {
         return (
-            <div>
+                     <div>
                 <div className="header" ref="header">
                     <Header name={this.handleScrollToElement.bind(this)} />
                 </div>
+                <div><Home /></div>
                <div className="gal "> <Gallery />  </div>
                 
-                <div ref="about" >
+                <div ref="about" className='about' >
                     <About />
                 </div>
                 <div ref="contact"> <Contact />

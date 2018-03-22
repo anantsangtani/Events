@@ -5,14 +5,10 @@ import Footer from './footer';
 
 const About = (props) => {
     return (
-        <div className="main">
+        <div>
             <center>
-                <h1>About Us</h1>
-                <div className="typewriter">
-                    <center >
-                        <h3>The Ultimate journey of Designing the prospectives according to the requirement...</h3>
-                    </center>
-                </div>
+                <h1>About</h1>
+               
             </center>
             <h2>Greatly hearted has who believe {props.name}</h2>
 
@@ -29,12 +25,6 @@ const About = (props) => {
             <p>Is post each that just leaf no. He connection interested so we an sympathize advantages. To said is it shed want do. Occasional middletons everything so to. Have spot part for his quit may. Enable it is square my an regard. Often merit stuff first oh up hills as he. Servants contempt as although addition dashwood is procured. Interest in yourself an do of numerous feelings cheerful confined.</p>
 
             <p>Received the likewise law graceful his. Nor might set along charm now equal green. Pleased yet equally correct colonel not one. Say anxious carried compact conduct sex general nay certain. Mrs for recommend exquisite household eagerness preserved now. My improved honoured he am ecstatic quitting greatest formerly.</p>
-
-            <p>Built purse maids cease her ham new seven among and. Pulled coming wooded tended it answer remain me be. So landlord by we unlocked sensible it. Fat cannot use denied excuse son law. Wisdom happen suffer common the appear ham beauty her had. Or belonging zealously existence as by resources.</p>
-
-            <p>Must you with him from him her were more. In eldest be it result should remark vanity square. Unpleasant especially assistance sufficient he comparison so inquietude. Branch one shy edward stairs turned has law wonder horses. Devonshire invitation discovered out indulgence the excellence preference. Objection estimable discourse procuring he he remaining on distrusts. Simplicity affronting inquietude for now sympathize age. She meant new their sex could defer child. An lose at quit to life do dull.</p>
-
-
         </div>
     )
 }
