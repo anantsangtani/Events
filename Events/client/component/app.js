@@ -5,6 +5,7 @@ import Header from './header';
 import Footer from './footer';
 import Slideshow from './slideshow';
 import About from './about';
+import Gallery from './Gallery';
 import Contact from './contact';
 
 
@@ -43,7 +44,8 @@ export default class App extends React.Component {
                 <div className="header" ref="header">
                     <Header name={this.handleScrollToElement.bind(this)} />
                 </div>
-                <Slideshow />
+               <div className="gal "> <Gallery />  </div>
+                
                 <div ref="about" >
                     <About />
                 </div>

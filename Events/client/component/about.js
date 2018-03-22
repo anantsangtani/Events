@@ -5,7 +5,7 @@ import Footer from './footer';
 
 const About = (props) => {
     return (
-        <div >
+        <div className="main">
             <center>
                 <h1>About Us</h1>
                 <div className="typewriter">
