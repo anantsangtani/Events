@@ -12,8 +12,6 @@ render((
         <Route path="/" component={App} />
         <Route path="/contact" component={Contact} />
         <Route path="/about" component={About} />
-        <Route path="/genrateQr" component={GenerateQr} />
-        
     </Router>
 
 ), document.getElementById("root"));     
