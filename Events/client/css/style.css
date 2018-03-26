@@ -5,6 +5,7 @@
 body{
     font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
     
+    
 }
 .about{
     height: auto;
@@ -91,4 +92,24 @@ background-repeat: no-repeat;
         font-weight: bold;
         text-decoration-style: none;
 }
+.gap{
+    margin: 10% 0 0 0;
+   text-decoration:white;
+}
+.contact-us{
+ background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(/component/slideImage/contact.jpg); 
+  background-size: 100% 100%;
+  color: white;
+}
+ .contact-table table{
+     font-size: 130%;
+     color: white;
+     width: 100%;
+ }
+ .phone{
+padding: 20px 0 40px 15%;
+ }
+ .mail{
+padding: 20px 0 40px 25%;
 
+ }

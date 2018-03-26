@@ -17,14 +17,18 @@ export default class App extends React.Component {
         var Element1 = this.refs.about;
         var Element2 = this.refs.contact;
         var Element0 = this.refs.header;
+        var Element3 = this.refs.gallery;
         if (num === "about") {
-            Element1.scrollIntoView();
+            Element1.scrollIntoView({ behavior: "smooth", block: "start", inline: "start" });
         }
         else if (num === "contact") {
-            Element2.scrollIntoView();
+            Element2.scrollIntoView({ behavior: "smooth", block: "start", inline: "start" });
         }
         else if (num === "home") {
-            Element0.scrollIntoView();
+            Element0.scrollIntoView({ behavior: "smooth", block: "start", inline: "start" });
+        }
+        else if (num === "gallery") {
+            Element3.scrollIntoView({ behavior: "smooth", block: "start", inline: "start" });
         }
 
     }
@@ -41,18 +45,21 @@ export default class App extends React.Component {
 
     render(props) {
         return (
-                     <div>
+            <div className="main-container">
                 <div className="header" ref="header">
                     <Header name={this.handleScrollToElement.bind(this)} />
                 </div>
                 <div><Home /></div>
-               <div className="gal "> <Gallery />  </div>
-                
+                <div ref="gallery">
+                    <Gallery />
+                </div>
+
                 <div ref="about" className='about' >
                     <About />
                 </div>
                 <div ref="contact"> <Contact />
                 </div>
+
                 <Footer />
 
             </div>

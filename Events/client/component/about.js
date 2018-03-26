@@ -6,6 +6,7 @@ import Footer from './footer';
 const About = (props) => {
     return (
         <div>
+       <div className="gap">  <br/><br/><br/><br/><br/></div>
             <center>
                 <h1>About</h1>
                

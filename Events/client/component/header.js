@@ -24,6 +24,7 @@ class Header extends React.Component {
             return (<div className="box">
                 <ul className="nav nav-pills">
                     <li><Link onClick={() => this.props.name("home")} ><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</Link></li>
+                     <li><Link onClick={() => this.props.name("gallery")} ><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> Gallery</Link></li>
                     <li><Link onClick={() => this.props.name("about")} ><span class="glyphicon glyphicon-user" aria-hidden="true"></span> About</Link></li>
                     <li><Link onClick={() => this.props.name("contact")} ><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Contact</Link></li>
                 </ul>
@@ -43,8 +44,9 @@ class Header extends React.Component {
             return(
                 <div className="menu_span">
                         <div onClick={this.scrollAction.bind(this)} id="home"><span id="home" class="glyphicon glyphicon-home" aria-hidden="true" > Home</span></div>
-                        <div onClick={this.scrollAction.bind(this)} id="about"><span class="glyphicon glyphicon-user" aria-hidden="true" id="about"> About</span></div>
-                        <div onClick={this.scrollAction.bind(this)} id="contact"><span class="glyphicon glyphicon-envelope" aria-hidden="true" id="contact"> Contact</span></div>
+                        <div onClick={this.scrollAction.bind(this)} id="gallery"><span id="gallery" class="glyphicon glyphicon-picture" aria-hidden="true" > Gallery</span></div>
+                        <div onClick={this.scrollAction.bind(this)} id="about"><span  id="about" class="glyphicon glyphicon-user" aria-hidden="true"> About</span></div>
+                        <div onClick={this.scrollAction.bind(this)} id="contact"><span id="contact" class="glyphicon glyphicon-envelope" aria-hidden="true" > Contact</span></div>
                     </div>
             )
         }

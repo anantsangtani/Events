@@ -1,9 +1,18 @@
+
+.gallery-container{
+    margin: 0;
+    padding: 0;
+
+}
 .gallery {
     border: 1px solid #ccc;
 }
 
 .gallery:hover {
     border: 1px solid #777;
+    cursor: pointer;
+     overflow: hidden;
+    
 }
 
 .gallery img {
@@ -11,6 +20,11 @@
     height: 30%;
     
     box-shadow:5px 0 gray;
+}
+.gallery img:hover {
+    opacity: .8;
+   
+    z-index: -1;
 }
 * {
     box-sizing: border-box;
@@ -44,7 +58,7 @@
 }
 .gal{
     height: auto;
-    margin: 10% 0 50% 0;
+    margin: 10% 0 0 0;
 }
 .link{
   margin: 0 0 0 0;
@@ -65,7 +79,10 @@ div.desc {
  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(/component/slideImage/4.png);
  background-size: 100% 100%;
  height:185px;
-  
+ cursor: pointer;
+}
+.lastimage:hover{
+    opacity:.8; 
 }
 .lastimage div{
     margin:15%;
@@ -75,8 +92,11 @@ div.desc {
 .lastimage a{
   color: snow;
 }
+lastimage b:hover{
+  font-size: 200%;
+}
 h1 {
-    text-shadow: 3px 2px lavenderblush;
     font-weight: bold;
+    padding: 0;
 
 }
