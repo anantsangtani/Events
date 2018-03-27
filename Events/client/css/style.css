@@ -100,6 +100,7 @@ background-repeat: no-repeat;
  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(/component/slideImage/contact.jpg); 
   background-size: 100% 100%;
   color: white;
+  height: 150%;
 }
  .contact-table table{
      font-size: 130%;
@@ -112,4 +113,9 @@ padding: 20px 0 40px 15%;
  .mail{
 padding: 20px 0 40px 25%;
 
+ }
+ .map{
+     margin: 0 0 0 18%;
+
+     
  }
