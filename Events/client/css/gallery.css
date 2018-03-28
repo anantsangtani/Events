@@ -103,8 +103,10 @@ h1 {
 @media only screen and (max-width: 500px) {
     .responsive {
         width: 100%;
+
     }
     .gallery-container{
         padding: 0;
+        margin:0;
     }
 }

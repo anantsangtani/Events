@@ -126,18 +126,22 @@ padding: 20px 0 40px 25%;
 background-image: url(/component/slideImage/4.png);
 background-attachment: fixed;
 padding-bottom: 0%;
+height: 30%;
  }
 
   .layer-2 {
      background-image: url(/component/slideImage/2.png);
      background-attachment: fixed;
-     padding: 10% 0 0% 0;
+     padding: 0% 0 0% 0;
+height: 30%;
+     
  }
 
  @media (max-width: 500px) {
      .layer-1, .layer-2 {
          background-attachment: scroll;
          background: none;
+         height: 0;
      }
      .new-map {
          height: 20%;
