@@ -6,11 +6,7 @@ import Footer from './footer';
 const About = (props) => {
     return (
         <div>
-       <div className="gap">  <br/><br/><br/><br/><br/></div>
-            <center>
-                <h1>About</h1>
-               
-            </center>
+            
             <h2>Greatly hearted has who believe {props.name}</h2>
 
             <p>It if sometimes furnished unwilling as additions so. Blessing resolved peculiar fat graceful ham. Sussex on at really ladies in as elinor. Sir sex opinions age properly extended. Advice branch vanity or do thirty living. Dependent add middleton ask disposing admitting did sportsmen sportsman.</p>

@@ -36,9 +36,7 @@ class Gallery extends React.Component {
     return (
 
       <div className="gallery-container">
-<div className="gap">  <br/><br/><br/><br/><br/></div>
 
-        <center><h1>Gallery</h1></center>
         <div>
           <div className="responsive">
             <div className='shadow'>

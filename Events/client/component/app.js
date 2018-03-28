@@ -49,15 +49,18 @@ export default class App extends React.Component {
                 <div className="header" ref="header">
                     <Header name={this.handleScrollToElement.bind(this)} />
                 </div>
-                <div><Home /></div>
-                <div ref="gallery">
-                    <Gallery />
+                <div className="layer-1"> 
+                    <div><Home /></div>
+                    <div ref="gallery">
+                        <Gallery />
+                    </div>
                 </div>
-
-                <div ref="about" className='about' >
-                    <About />
-                </div>
-                <div ref="contact"> <Contact />
+                <div className="layer-2">
+                    <div ref="about" className='about' >
+                        <About />
+                    </div>
+                    <div ref="contact"> <Contact />
+                    </div>
                 </div>
 
                 <Footer />

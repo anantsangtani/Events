@@ -9,7 +9,9 @@ body{
 }
 .about{
     height: auto;
-    margin: 0 0 0 0;
+    margin: 0;
+    background: white;
+    padding: 10%;
 }
 /* 
 
@@ -18,12 +20,12 @@ for the .typewriter effect
 */
 .typewriterbody{
      z-index: -1;
-     margin-top: 85px;
+     margin-top: 6.5%;
 display: flex;
   justify-content: center;
 
    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(/component/slideImage/home.jpg);
-    height:600px;
+    height:93.5%;
     width:100%;
 background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -97,14 +99,14 @@ background-repeat: no-repeat;
    text-decoration:white;
 }
 .contact-us{
- background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(/component/slideImage/contact.jpg); 
+ background: white; 
   background-size: 100% 100%;
-  color: white;
-  height: 150%;
+  color: black;
+  height: 100%;
 }
  .contact-table table{
      font-size: 130%;
-     color: white;
+     color: black;
      width: 100%;
  }
  .phone{
@@ -114,8 +116,30 @@ padding: 20px 0 40px 15%;
 padding: 20px 0 40px 25%;
 
  }
- .map{
-     margin: 0 0 0 18%;
+ .new-map{
+     height: 40%;
+     position: relative;
+ }
 
-     
+
+ .layer-1 {
+background-image: url(/component/slideImage/4.png);
+background-attachment: fixed;
+padding-bottom: 0%;
+ }
+
+  .layer-2 {
+     background-image: url(/component/slideImage/2.png);
+     background-attachment: fixed;
+     padding: 10% 0 0% 0;
+ }
+
+ @media (max-width: 500px) {
+     .layer-1, .layer-2 {
+         background-attachment: scroll;
+         background: none;
+     }
+     .new-map {
+         height: 20%;
+     }
  }
